@@ -1,17 +1,8 @@
-/* Here I enforce a zero margin in all elements */
-*
-{
-   margin: 0px;
-   padding: 0px;
-}
-
 body
 {
+     margin: 0;
      font-family: 'Muli',sans-serif;
      color: #646464;
-
-     /* Here I block the horizontal scroll, because the header that goes out of screen to the sides */
-     overflow-x: hidden;
 }
 
 #header
@@ -20,17 +11,11 @@ body
      color: white;
      text-align: center;
      height: 300px;
-
-     /* With those, I make sure the header goes beyond the screen horizontally */
-	margin-left: -3000px;
-	margin-right: -3000px;
 }
 
 #header_text
 {
-     /* Here I center vertically the main text of the header */
-     padding: 100px 0px 100px 0px;
-     vertical-align: middle;
+     padding-top: 50px;
 }
 
 h1
